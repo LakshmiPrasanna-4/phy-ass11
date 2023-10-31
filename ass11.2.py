@@ -1,0 +1,7 @@
+# Write a program to print n series.
+
+n=int(input())
+for i in range(1,n+1):
+    for j in range(1,n):
+        print(i,end=' ')
+    print()
